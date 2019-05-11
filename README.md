@@ -41,7 +41,7 @@ border-box tells the browser to account for any border and padding in the values
 ### Priority Content
 Start from small, Mobile -> Tablet -> Desktop. 
 
-###
+### Break Point
 Pick break point from small to large  
 
 ### References
