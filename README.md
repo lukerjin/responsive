@@ -16,3 +16,5 @@ nav a, button {
 
 1. Height and width alone can be a little dangerous because it won't allow the element to resize if the content inside of it is bigger than the container.  
 
+### Priority Content
+Start from small, Mobile -> Tablet -> Desktop
