@@ -39,7 +39,10 @@ border-box tells the browser to account for any border and padding in the values
 ```
 > Few big files, less http request
 ### Priority Content
-Start from small, Mobile -> Tablet -> Desktop
+Start from small, Mobile -> Tablet -> Desktop. 
+
+###
+Pick break point from small to large  
 
 ### References
 [DPR and Viewport](https://zhuanlan.zhihu.com/p/26131956)
