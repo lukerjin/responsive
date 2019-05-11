@@ -1,7 +1,7 @@
 # Responsive web tips
 
 ### Set Viewport
-window.devicePixelRatio = physical pixels / device-independent pixels(dips)
+window.devicePixelRatio = physical pixels / device-independent pixels(dips)  
 `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
 
 
