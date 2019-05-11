@@ -27,3 +27,6 @@ border-box tells the browser to account for any border and padding in the values
 
 ### Priority Content
 Start from small, Mobile -> Tablet -> Desktop
+
+### References
+[DPR and Viewport](https://zhuanlan.zhihu.com/p/26131956)
