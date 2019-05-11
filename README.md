@@ -11,6 +11,10 @@ nav a, button {
   min-height: 48px;
   min-width: 48px;
 }
+
+nav a {
+  padding: 1.5em;
+}
 ```
 1. Tap targets should be bigger than the average finger. So, to ensure that all of your elements are at least that size, add min-height: 48px; and min-width: 48px; to every tappable element.  
 
