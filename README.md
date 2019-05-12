@@ -98,6 +98,22 @@ border-box tells the browser to account for any border and padding in the values
     .dark_blue, .green { width: 25%; }
     .light_blue { width: 50%; }
 }
+```  
+
+2. Fluid Pattern
+```
+@media screen and (min-width: 768px) {
+    .light_blue, .green { width: 50%; }
+}
+
+@media screen and (min-width: 1024px) {
+    .dark_blue, .light_blue { width: 50%; }
+    .green, .red, .orange { width: 33.3333%; }
+}
+
+@media screen and (min-width: 1280px) {
+    .container { width: 1280px; margin-left: auto; margin-right: auto; }
+}
 ```
 
 ### Priority Content
