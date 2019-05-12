@@ -128,5 +128,5 @@ Pick break point from small to large
 
 ### References
 [DPR and Viewport](https://zhuanlan.zhihu.com/p/26131956)  
-[Flexbox布局教程】Flexbox布局是如何工作的 – 用大彩图和GIF动画解释](https://www.html.cn/archives/7212). 
+[Flexbox布局教程】Flexbox布局是如何工作的 – 用大彩图和GIF动画解释](https://www.html.cn/archives/7212)  
 [CSS3 Flexbox属性可视化指南](https://www.html.cn/archives/5744)  
