@@ -33,10 +33,17 @@ border-box tells the browser to account for any border and padding in the values
 `<link ref="stylesheet" media="screen and (min-width: 500px) href="">`
 > Many small files, but many http request
 ```
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 500px) {
 
 }
 ```
+
+```  
+@media screen and (min-width: 501px) and (max-width: 1000px){
+
+}
+```  
+
 > Few big files, less http request
 ### Priority Content
 Start from small, Mobile -> Tablet -> Desktop. 
