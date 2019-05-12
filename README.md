@@ -68,6 +68,14 @@ border-box tells the browser to account for any border and padding in the values
   flex-wrap: wrap;
 }
 ```
+3. Change layout order
+```
+ @media screen and (min-width: 500px) {
+      .dark_blue { order:3; }
+      .light_blue { order:1; }
+      .green { order:2; }
+  }
+```
 
 ### Priority Content
 Start from small, Mobile -> Tablet -> Desktop. 
