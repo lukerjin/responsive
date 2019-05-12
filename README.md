@@ -115,6 +115,10 @@ border-box tells the browser to account for any border and padding in the values
     .container { width: 1280px; margin-left: auto; margin-right: auto; }
 }
 ```
+3. Layout Shifter Pattern  
+```
+
+```
 
 ### Priority Content
 Start from small, Mobile -> Tablet -> Desktop. 
@@ -124,3 +128,5 @@ Pick break point from small to large
 
 ### References
 [DPR and Viewport](https://zhuanlan.zhihu.com/p/26131956)
+[Flexbox布局教程】Flexbox布局是如何工作的 – 用大彩图和GIF动画解释](https://www.html.cn/archives/7212)
+[CSS3 Flexbox属性可视化指南](https://www.html.cn/archives/5744)
