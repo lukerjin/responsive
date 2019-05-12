@@ -45,6 +45,30 @@ border-box tells the browser to account for any border and padding in the values
 ```  
 
 > Few big files, less http request
+
+### Flex
+1. By default, the flex direction is row, the flex items fit on a single line
+```
+.container {
+  width: 100%;
+  display: flex;
+}
+
+<div class="container">
+  <div class="box dark_blue"></div>
+  <div class="box light_blue"></div>
+  <div class="box green"></div>
+</div>
+```
+2. By adding flex-wrap: wrap; to the container element, tells the browser it is ok to wrap the elements inside to wrap to the next line.
+```
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+```
+
 ### Priority Content
 Start from small, Mobile -> Tablet -> Desktop. 
 
