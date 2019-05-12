@@ -76,6 +76,29 @@ border-box tells the browser to account for any border and padding in the values
       .green { order:2; }
   }
 ```
+### Flex Pattern
+1. Column Pattern
+```
+.container {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width:100%;
+    height:150px;
+}
+
+@media screen and (min-width:500px) {
+    .dark_blue { width: 25%; }
+    .light_blue { width: 75%; }
+}
+
+@media screen and (min-width:700px) {
+    .dark_blue, .green { width: 25%; }
+    .light_blue { width: 50%; }
+}
+```
 
 ### Priority Content
 Start from small, Mobile -> Tablet -> Desktop. 
